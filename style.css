@@ -12,32 +12,13 @@ body {
 
 header {
     background-color: #1b3a1a; /* Dark green */
-    padding: 1rem;
+    padding: 2rem;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-    
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-}
-
-nav li {
-    flex: 1; /* Equal width for each link */
-}
-
-nav a {
-    display: block;
-    text-align: center;
-    padding: 1rem;
+header a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 1rem 2rem;
     text-decoration: none;
     color: #f0f0f0; /* White text */
     background-color: #4e6e4d; /* Green background */
@@ -45,29 +26,28 @@ nav a {
     transition: background-color 0.3s;
 }
 
-nav a:hover {
+header a:hover {
     background-color: #a8cba0; /* Light green on hover */
 }
 
 .project img {
-    width: 75%; /* Set image width to 75% of the container */
+    width: 75%;
     display: block;
-    margin: 10px auto; /* Center images with margin */
-    padding: 5px; /* Padding around images */
-    border-radius: 5px; /* Optional: rounded corners for images */
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 footer {
     margin-top: 3rem;
-    background-color: #1b3a1a; /* Dark green */
-    color: #f0f0f0; /* White text */
+    background-color: #1b3a1a;
+    color: #f0f0f0;
     padding: 1rem;
     text-align: center;
 }
 
 hr {
-    width: 99.5%;
+    width: 80%;
     border-top: 2px solid white;
-    margin: 0;
-    padding: 0;
+    margin: 3rem auto;
 }
