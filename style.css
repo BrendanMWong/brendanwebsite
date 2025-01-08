@@ -8,46 +8,66 @@ body {
     margin: 0;
     align-items: center;
     text-align: center;
+    padding-top: 125px; /* Ensure content starts below the fixed header */
 }
 
 header {
     background-color: #1b3a1a; /* Dark green */
-    padding: 2rem;
+    padding: 2rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: center;  /* Center-align buttons horizontally */
+    flex-wrap: wrap;  /* Allow buttons to wrap to next line if necessary */
+    gap: 20px;  /* Vertical and horizontal spacing between buttons */
 }
 
 header a {
     display: inline-block;
-    margin: 0 15px;
-    padding: 1rem 2rem;
+    padding: 1.5rem 3rem;
+    font-size: 28px;
     text-decoration: none;
-    color: #f0f0f0; /* White text */
-    background-color: #4e6e4d; /* Green background */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s;
+    color: #f0f0f0;
+    background-color: #4e6e4d;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.1s;
 }
 
 header a:hover {
-    background-color: #a8cba0; /* Light green on hover */
+    background-color: #a8cba0;
+    transform: scale(1.05);
+}
+
+section {
+    margin-top: 3rem;
 }
 
 .project img {
     width: 75%;
     display: block;
-    margin: 10px auto;
-    padding: 5px;
-    border-radius: 5px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 footer {
-    margin-top: 3rem;
+    margin-top: 5rem;
     background-color: #1b3a1a;
     color: #f0f0f0;
-    padding: 1rem;
+    padding: 2rem;
     text-align: center;
+    font-size: 20px;
 }
 
 hr {
     width: 80%;
-    border-top: 2px solid white;
-    margin: 3rem auto;
+    border-top: 3px solid white;
+    margin: 4rem auto;
 }
