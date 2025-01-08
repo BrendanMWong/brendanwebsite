@@ -71,3 +71,10 @@ hr {
     border-top: 3px solid white;
     margin: 4rem auto;
 }
+
+h1 {
+    font-size: 60px;  /* Larger font for main headings */
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #f0f0f0;
+}
