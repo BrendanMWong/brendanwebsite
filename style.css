@@ -11,6 +11,12 @@ body {
     padding-top: 125px; /* Ensure content starts below the fixed header */
 }
 
+p {
+    text-align: left; /* Align paragraphs to the left */
+    margin: 1rem 0; /* Add consistent spacing */
+    text-indent: 3em; /* Add a tab space (2em for equivalent of a tab) */
+}
+
 header {
     background-color: #1b3a1a; /* Dark green */
     padding: 2rem 0;
