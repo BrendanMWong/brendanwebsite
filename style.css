@@ -17,6 +17,12 @@ p {
     text-indent: 3em;
 }
 
+p.noindent {
+    text-align: center;
+    margin: 1rem 0;
+    text-indent: 0em;
+}
+
 ul {
     text-align: left;
     margin-left: 2em;
