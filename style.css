@@ -17,6 +17,15 @@ p {
     text-indent: 3em;
 }
 
+ul {
+    text-align: left;
+    margin-left: 2em;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
 header {
     background-color: #1b3a1a;
     padding: 2rem 0;
