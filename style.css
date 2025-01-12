@@ -8,17 +8,17 @@ body {
     margin: 0;
     align-items: center;
     text-align: center;
-    padding-top: 125px; /* Ensure content starts below the fixed header */
+    padding-top: 125px;
 }
 
 p {
-    text-align: left; /* Align paragraphs to the left */
-    margin: 1rem 0; /* Add consistent spacing */
-    text-indent: 3em; /* Add a tab space (2em for equivalent of a tab) */
+    text-align: left;
+    margin: 1rem 0;
+    text-indent: 3em;
 }
 
 header {
-    background-color: #1b3a1a; /* Dark green */
+    background-color: #1b3a1a;
     padding: 2rem 0;
     position: fixed;
     top: 0;
@@ -30,9 +30,9 @@ header {
 
 nav {
     display: flex;
-    justify-content: center;  /* Center-align buttons horizontally */
-    flex-wrap: wrap;  /* Allow buttons to wrap to next line if necessary */
-    gap: 20px;  /* Vertical and horizontal spacing between buttons */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 header a {
@@ -79,7 +79,7 @@ hr {
 }
 
 h1 {
-    font-size: 60px;  /* Larger font for main headings */
+    font-size: 60px;
     font-weight: bold;
     margin-bottom: 1rem;
     color: #f0f0f0;
