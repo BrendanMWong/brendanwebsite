@@ -71,7 +71,7 @@ section {
 }
 
 .project img {
-    width: 75%;
+    width: 60%;
     display: block;
     margin: 20px auto;
     padding: 10px;
@@ -101,6 +101,10 @@ h1 {
 }
 
 video {
-    width: 66%;
+    width: 60%;
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
 }
 
