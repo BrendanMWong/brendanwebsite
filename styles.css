@@ -1,5 +1,6 @@
 * {
   font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -19,6 +20,8 @@ img {
   border-width: 0px;
   border-color: #3f3f3f;
   border-radius: 20px;
+  width: 50%;
+  height: 50%;
 }
 
 video {
@@ -26,6 +29,8 @@ video {
     border-width: 0px;
     border-color: #3f3f3f;
     border-radius: 20px;
+    width: 50%;
+    height: 50%;
 }
 
 .whitebox {
@@ -52,6 +57,8 @@ video {
 .navigationbar ul {
   list-style-type: none;
   margin: auto;
+  position: fixed;
+  top: 0;
   width: 60%;
   padding: 0;
   overflow: hidden;
@@ -60,6 +67,8 @@ video {
   border-color: #3f3f3f;
   border-width: 1px;
   border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .navigationbar li {
@@ -69,6 +78,7 @@ video {
   border-color: #000000;
   border-width: 1px;
   border-radius: 20px;
+  box-sizing: border-box;
 }
 
 li a,
