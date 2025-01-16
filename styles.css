@@ -55,10 +55,14 @@ video {
 }
 
 .navigationbar ul {
-  margin: 0 calc(((100vw - 60%) / 2) - 16px);
+  margin-top: 10px;
   list-style-type: none;
   position: fixed;
   top: 20px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
   width: 60%;
   padding: 0;
   overflow: visible;
@@ -72,6 +76,8 @@ video {
   align-items: center;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
+  max-width: 500px;
+  min-width: 500px;
 }
 
 .navigationbar li {
