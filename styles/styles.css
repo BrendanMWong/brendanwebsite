@@ -74,7 +74,6 @@ video {
   display: flex;
   flex-direction: column; /* Stack paragraphs, titles, and links vertically */
   justify-content: center; /* Center text content vertically */
-  margin-left: 20px; /* Add space between image and text */
   flex: 1; /* Allow text area to take up remaining space */
 }
 
@@ -82,7 +81,7 @@ video {
   margin-bottom: 0px; /* Adjust spacing between title and paragraph */
 }
 
-.whitebox .noimage {
+.whitebox .noimage p {
   margin-top: 0px;
 }
 
