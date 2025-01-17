@@ -121,6 +121,7 @@ li.dropdown {
   top: 100%;
   opacity: 0;
   visibility: hidden;
+  transform: translateY(-10px);
   transition: opacity 0.3s ease, visibility 0s 0.3s, border-radius 0.3s ease;
 }
 
@@ -143,5 +144,6 @@ li.dropdown {
   display: block;
   opacity: 1;
   visibility: visible;
+  transform: translateY(0);
   transition: opacity 0.3s ease, visibility 0s 0s, border-radius 0.3s ease;
 }
