@@ -91,6 +91,7 @@ video {
   margin-right: 20px; /* Adjust spacing between text and image */
   margin-left: 20px; /* Adjust spacing between text and image */
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .whitebox video {
