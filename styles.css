@@ -24,13 +24,20 @@ img {
   height: 50%;
 }
 
+.floatrightimg {
+  width: 50%;
+  height: 50%;
+  float: right;
+  margin-left: 20px;
+}
+
 video {
-    border-style: solid;
-    border-width: 0px;
-    border-color: #3f3f3f;
-    border-radius: 20px;
-    width: 50%;
-    height: 50%;
+  border-style: solid;
+  border-width: 0px;
+  border-color: #3f3f3f;
+  border-radius: 20px;
+  width: 50%;
+  height: 50%;
 }
 
 .whitebox {
@@ -93,7 +100,8 @@ li a,
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  transition: background-color 0.3s, border-color 0.3s, padding 0.3s, border-radius 0.3s;
+  transition: background-color 0.3s, border-color 0.3s, padding 0.3s,
+    border-radius 0.3s;
 }
 
 li a:hover,
