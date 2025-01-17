@@ -61,18 +61,13 @@ video {
   border-color: #3f3f3f;
   border-width: 1px;
   border-radius: 20px;
-  margin: 15px;
+  margin-top: 15px;
   line-height: 1.2;
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden; /* Prevent any overflow and force proper image placement */
   display: block; /* Switch to block display to reset flexbox behavior */
-}
-
-.whitebox > * {
-  margin: 0;
-  padding: 0;
 }
 
 .whitebox .content {
@@ -85,6 +80,10 @@ video {
 
 .whitebox h2, .whitebox p {
   margin-bottom: 0px; /* Adjust spacing between title and paragraph */
+}
+
+.whitebox .noimage {
+  margin-top: 0px;
 }
 
 .whitebox img {
@@ -203,6 +202,7 @@ li.dropdown {
 .readmorelink {
   padding-left: 10px;
   margin-bottom: 10px;
+  margin-top: 7px;
 }
 
 .readmorelink:link {
