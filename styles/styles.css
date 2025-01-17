@@ -58,6 +58,21 @@ img[src="../images/codeicon.png"] {
   vertical-align:sub;
 }
 
+img[src="../images/gmailicon.png"] {
+  width: 1.3rem !important;
+  height: 1.2rem !important;
+  margin: 0 !important;
+  vertical-align:sub;
+  border-radius: 0px;
+}
+
+img[src="../images/phoneicon.png"] {
+  width: 1.4rem !important;
+  height: 1.2rem !important;
+  margin: 0 !important;
+  vertical-align:sub;
+}
+
 video {
   border-style: solid;
   border-width: 0px;
@@ -278,6 +293,18 @@ li.dropdown {
 .otherlink:active {
   color: #a9edcc;
   text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.gmail {
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.phone {
+  color: lightblue;
   font-weight: bold;
   font-size: 18px;
 }
