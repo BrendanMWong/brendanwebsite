@@ -17,6 +17,8 @@ h1 {
 h2 {
   text-align: center;
   font-size: 39px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 h3 {
@@ -42,8 +44,7 @@ img {
 
 .floatleftimg {
   width: 50%;
-  height: 50%;
-  float: left;
+  height: auto;
   margin-right: 20px;
 }
 
@@ -69,6 +70,31 @@ video {
   margin-left: auto;
   margin-right: auto;
   overflow: auto;
+  display: flex; /* Align items horizontally (side-by-side) */
+  align-items: center; /* Vertically center the content */
+  justify-content: flex-start; /* Keep items aligned to the left */
+}
+
+.whitebox > * {
+  margin: 0;
+  padding: 0;
+}
+
+.whitebox .content {
+  display: flex;
+  flex-direction: column; /* Stack paragraphs, titles, and links vertically */
+  justify-content: center; /* Center text content vertically */
+  margin-left: 20px; /* Add space between image and text */
+  flex: 1; /* Allow text area to take up remaining space */
+}
+
+.whitebox h2, .whitebox p {
+  margin-bottom: 0px; /* Adjust spacing between title and paragraph */
+}
+
+.readmorelink {
+  margin-top: 10px;
+  padding-left: 10px;
 }
 
 .whitebox p {
