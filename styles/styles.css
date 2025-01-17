@@ -45,6 +45,12 @@ img {
   margin-left: 20px; /* Space between image and content */
 }
 
+img[src="../images/githubicon.png"] {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+  margin: 0 !important;
+}
+
 video {
   border-style: solid;
   border-width: 0px;
