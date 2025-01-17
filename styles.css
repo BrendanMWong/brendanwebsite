@@ -24,6 +24,10 @@ img {
   height: 50%;
 }
 
+.p-overflow {
+  overflow: auto;
+}
+
 .floatrightimg {
   width: 50%;
   height: 50%;
