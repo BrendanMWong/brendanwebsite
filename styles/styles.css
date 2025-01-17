@@ -51,6 +51,13 @@ img[src="../images/githubicon.png"] {
   margin: 0 !important;
 }
 
+img[src="../images/codeicon.png"] {
+  width: 1.6rem !important;
+  height: 1.2rem !important;
+  margin: 0 !important;
+  vertical-align:sub;
+}
+
 video {
   border-style: solid;
   border-width: 0px;
