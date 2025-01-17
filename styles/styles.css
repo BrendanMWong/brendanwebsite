@@ -82,7 +82,7 @@ video {
 }
 
 .whitebox .noimage p {
-  margin-top: 0px;
+  padding-bottom: 15px;
 }
 
 .whitebox img {
