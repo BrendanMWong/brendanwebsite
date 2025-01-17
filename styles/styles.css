@@ -86,10 +86,18 @@ video {
 }
 
 .whitebox img {
-  width: 50%;
+  width: 95%;
   height: auto;
   margin-right: 20px; /* Adjust spacing between text and image */
   margin-left: 20px; /* Adjust spacing between text and image */
+  margin-top: 20px;
+}
+
+.whitebox video {
+  width: 95%;
+  height: auto;
+  margin-right: 20px;
+  margin-left: 20px;
   margin-top: 20px;
 }
 
