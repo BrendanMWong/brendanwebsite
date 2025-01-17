@@ -35,17 +35,14 @@ img {
   height: 50%;
 }
 
-.floatrightimg {
-  width: 50%;
-  height: 50%;
-  float: right;
-  margin-left: 20px;
+.floatleftimg {
+  float: left; /* Floating the image to the left */
+  margin-right: 20px; /* Space between image and content */
 }
 
-.floatleftimg {
-  width: 50%;
-  height: auto;
-  margin-right: 20px;
+.floatrightimg {
+  float: right; /* Floating the image to the right */
+  margin-left: 20px; /* Space between image and content */
 }
 
 video {
@@ -69,10 +66,8 @@ video {
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  overflow: auto;
-  display: flex; /* Align items horizontally (side-by-side) */
-  align-items: center; /* Vertically center the content */
-  justify-content: flex-start; /* Keep items aligned to the left */
+  overflow: hidden; /* Prevent any overflow and force proper image placement */
+  display: block; /* Switch to block display to reset flexbox behavior */
 }
 
 .whitebox > * {
@@ -90,6 +85,12 @@ video {
 
 .whitebox h2, .whitebox p {
   margin-bottom: 0px; /* Adjust spacing between title and paragraph */
+}
+
+.whitebox img {
+  width: 50%;
+  height: auto;
+  margin-right: 20px;
 }
 
 .readmorelink {
