@@ -162,8 +162,8 @@ video {
   align-items: center;
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
-  max-width: 500px;
-  min-width: 500px;
+  max-width: 600px;
+  min-width: 600px;
   transition: background-color 0.3s, border-color 0.3s, border-radius 0.3s;
 }
 
